@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, '/app')
 from alembic import context
 from app.core.config import settings
 from app.database.base import Base
